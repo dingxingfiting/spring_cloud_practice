@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microserviceapi" />
+        <module name="microserviceconsumeritem8101" />
+        <module name="microserviceeureka6001" />
+        <module name="microserviceeureka6002" />
+        <module name="microserviceeureka6003" />
+        <module name="microserviceprovideritem8001" />
+        <module name="microserviceprovideritem8002" />
+        <module name="microserviceprovideritem8003" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="microserviceapi" options="-parameters" />
+      <module name="microserviceconsumeritem8101" options="-parameters" />
+      <module name="microserviceeureka6001" options="-parameters" />
+      <module name="microserviceeureka6002" options="-parameters" />
+      <module name="microserviceeureka6003" options="-parameters" />
+      <module name="microserviceprovideritem8001" options="-parameters" />
+      <module name="microserviceprovideritem8002" options="-parameters" />
+      <module name="microserviceprovideritem8003" options="-parameters" />
+    </option>
+  </component>
+</project>

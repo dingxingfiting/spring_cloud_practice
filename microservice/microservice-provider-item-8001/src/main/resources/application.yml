@@ -1,0 +1,32 @@
+server:
+  port: 8001
+# 配置数据库连接属性、
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ssm2?characterEncoding=utf-8
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+    minIdle: 3
+    maxActive: 10
+    initialSize: 5
+  application:
+    name: microservice-item-provider  # 该配置很重要！重要！重要！ 注册时的应用名称
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://www.eureka6002.com:6002/eureka/,http://www.eureka6003.com:6003/eureka/,http://www.eureka6001.com:6001/eureka/ # 指定（Eureka Server）注册地址
+    healthcheck:
+      enabled: true  # 开启健康检查机制
+
+  instance:
+    prefer-ip-address: true # ip地址偏好
+    instance-id: localhost:8001 #实例名称
+info:
+  description: SpringCloud入门案例
+  url: http://www.igeekhome.com
+  instance-id: localhost:8001
+  application-name: item-provider-8001
+  #...

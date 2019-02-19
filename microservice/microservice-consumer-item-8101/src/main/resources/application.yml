@@ -1,0 +1,13 @@
+server:
+  port: 8101
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://www.eureka6002.com:6002/eureka/,http://www.eureka6003.com:6003/eureka/,http://www.eureka6001.com:6001/eureka/
+    register-with-eureka: false # 指定（Eureka Server）注册地址
+
+# 通过配置文件修改指定客户端负载均衡算法
+MICROSERVICE-ITEM-PROVIDER:
+  ribbon:
+   NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule

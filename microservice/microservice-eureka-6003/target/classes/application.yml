@@ -1,0 +1,10 @@
+server:
+  port: 6003
+eureka:
+  instance:
+    hostname: eureka6003.com
+  client:
+    registerWithEureka: false  #是否注册到EurekaServer中，因为本身就是EurekaServer 所以不需要注册
+    #fetchRegistry: false # 是否从EurekaServer中获取信息，因为当前是单点Eureka 所以不需要
+    serviceUrl: # 指定与Eureka Client交互的地址
+      defaultZone: http://www.eureka6002.com:6002/eureka/,http://www.eureka6001.com:6001/eureka/

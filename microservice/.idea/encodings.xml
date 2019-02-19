@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-item-8101" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-eureka-6001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-eureka-6002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-eureka-6003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-provider-item-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-provider-item-8002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-provider-item-8003" charset="UTF-8" />
+  </component>
+</project>
